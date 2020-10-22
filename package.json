@@ -1,13 +1,16 @@
 {
-  "name": "three",
-  "version": "0.121.1",
+  "name": "@bandicoot-imaging-sciences/three",
+  "version": "0.121.101",
   "description": "JavaScript 3D library",
   "main": "build/three.js",
   "module": "build/three.module.js",
   "types": "src/Three.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrdoob/three.js"
+    "url": "https://github.com/bandicoot-imaging-sciences/three.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "files": [
     "build/three.js",
